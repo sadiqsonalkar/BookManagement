@@ -1,0 +1,35 @@
+ <!-- form handling -->
+ <form action="/api/books" method="POST" id="add_book">
+    <div class="new_book">
+        <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" >
+        </div>
+        <div class="form-group">
+            <label for="Author" class="text-light">Author</label>
+            <input type="text" name="author" value="">
+        </div>
+        <div class="form-group">
+            <label for="price" class="text-light">Price</label><br>
+            <input type="number" name="price" value="">
+        </div>
+
+        <div class="form-group">
+            <label for="gender" class="text-light">Status</label>
+            <div class="radio inline">
+                <input type="radio" id="radio-4" name="status" value="Available" >
+                <label for="radio-4" class="radio-label">Available</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-5" name="status" value="Not Available" >
+                <label for="radio-5" class="radio-label">Not Available</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
