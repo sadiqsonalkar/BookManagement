@@ -1,0 +1,17 @@
+We are using express to rapidly develop node application.
+
+We are using morgan to help us to log a message every time when we make a request.
+
+We are using nodemon to allows us to restart the server automatically when we make changes in the project.
+
+We are using ejs(Embedded JavaScript) is the template engine i'm using in this project it allow us to create dynamic html.
+
+We are using body-parser module it allows us to serialize the data and access the form data using body property.
+
+We are using dotenv module which allows you to separate the secret from your source code this is 
+useful in collaborative environment where you may not want to share your database login credential
+with other people instead you can share the source code while allowing other people to create their own dot env file.
+
+We are using mongoose which will helps us to connect the project with mongodb database.
+
+We are using axios library this library makes it easy to make a request in express application.
