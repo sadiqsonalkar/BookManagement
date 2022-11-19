@@ -14,7 +14,9 @@ Multi-region, multi-cloud, Serverless and elastic, Always-on security, Native to
 So I’m using MongoDB Atlas for my project.
 
 Database - Database is a physical container for collections. Each database gets its own set of files on the file system. A single MongoDB server typically has multiple databases.
+
 Collection - Collection is a group of MongoDB documents. It is the equivalent of an RDBMS table. A collection exists within a single database. 
+
 Document - A document is a set of key-value pairs. Documents have dynamic schema. Dynamic schema means that documents in the same collection do not need to have the same set of fields or structure, and common fields in a collection's documents may hold different types of data.
 
 In my application I have performed CRUD in MongoDB database.
