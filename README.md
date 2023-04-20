@@ -11,7 +11,6 @@ Documents can contain many different key-value pairs, or key-array pairs, or eve
 MongoDB Atlas is a fully-managed cloud database that handles all the complexity of deploying, managing, and healing your deployments on the cloud service provider of your choice (AWS and Azure). 
 MongoDB Atlas is the best way to deploy, run, and scale MongoDB in the cloud. With Atlas, you’ll have a MongoDB database running with just a few clicks, and in just a few minutes.
 Multi-region, multi-cloud, Serverless and elastic, Always-on security, Native tooling, Continuous backups, etc. are some advantages of MongoDB
-So I’m using MongoDB Atlas for my project.
 
 Database - Database is a physical container for collections. Each database gets its own set of files on the file system. A single MongoDB server typically has multiple databases.
 
